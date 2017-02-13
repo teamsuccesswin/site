@@ -1,0 +1,3 @@
+before_install:
+- openssl aes-256-cbc -K $encrypted_60611619f174_key -iv $encrypted_60611619f174_iv
+  -in deploytsw-key.enc -out deploytsw-key -d
