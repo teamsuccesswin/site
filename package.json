@@ -1,0 +1,19 @@
+{
+  "name": "tswsite",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"i play to success win\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teamsuccesswin/site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teamsuccesswin/site/issues"
+  },
+  "homepage": "https://github.com/teamsuccesswin/site#readme"
+}
