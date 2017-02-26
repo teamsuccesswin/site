@@ -1,0 +1,49 @@
+@import 'variables';
+@import 'utils';
+@import 'colors';
+@import 'base';
+
+@import 'components/detail-pane-styles';
+@import 'components/forms';
+@import 'components/panels';
+@import 'components/lists';
+
+body {
+  display: block;
+  position: fixed;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: $app-header-height;
+  background: $app-main;
+  line-height: $app-header-height;
+  border: {
+    bottom: $header-border-size solid $app-main-dark
+  };
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.app-body {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  &--with-header {
+    top: $app-header-height;
+    height: $app-body-height;
+  }
+}
+

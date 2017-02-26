@@ -1,0 +1,18 @@
+//  App Body
+$app-header-height: 3rem;
+$app-body-height: calc(100% - #{$app-header-height});
+
+//  Header
+$header-border-size: 0.25rem;
+
+$app-blue: #5d9aff;
+$app-red: #ff5b5f;
+$app-yellow: #fff78b;
+$app-green: #57de73;
+$app-gray: #919191;
+$app-white: white;
+$app-gray-light: #DEDEDE;
+$app-purple: #a38bff;
+
+$app-main: $app-blue;
+$app-main-dark: $app-main - #111;
