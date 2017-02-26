@@ -1,0 +1,26 @@
+@each $name, $color in (
+    (blue, $app-blue),
+    (red, $app-red),
+    (yellow, $app-yellow),
+    (green, $app-green),
+    (purple, $app-purple),
+    (gray, $app-gray),
+    (gray-light, $app-gray-light),
+    (main, $app-main),
+    (main-dark, $app-main-dark),
+    (white, $app-white)) {
+  .bg-#{$name} {
+    background: $color;
+  }
+  .color-#{$name} {
+    color: $color;
+  }
+  .btn-#{$name} {
+    background: $color;
+    color: white;
+
+    &:hover {
+      background: $color * 0.8;
+    }
+  }
+}
